@@ -2,52 +2,47 @@
 
 ## 📌 Project Overview
 
-This repository contains my learning and implementation of Playwright Automation using JavaScript/TypeScript.
+This repository contains my learning and implementation of Playwright Automation using Python.
 The goal is to transition from Manual QA to Automation QA by building real-world test scenarios.
 
 ---
 
 ## 🛠 Tools & Technologies Used
 
-* Playwright
-* JavaScript / TypeScript
-* Node.js
+* Python
+* Playwright (Python)
+* Pytest
 * GitHub
 
 ---
 
 ## 📁 Project Structure
 
-* tests → Contains test cases
-* pages → Page Object Model files
-* utils → Reusable functions
-* test-data → Test data files
-* docs → Learning notes & documentation
+* tests/ → Test cases
+* pages/ → Page Object Model (POM) files
+* utils/ → Reusable utilities
+* test_data/ → Test data files
+* practice/ → Python basics & practice programs
+* docs/ → Learning notes & documentation
 
 ---
 
 ## 🚀 How to Run Tests
 
-1. Install dependencies:
+1. Install dependencies
+pip install playwright pytest
+playwright install
+2. Run tests
+pytest
 
-```
-npm install
-```
+## 🧠 What I’m Learning
 
-2. Run tests:
-
-```
-npx playwright test
-```
-
----
-
-## 🧠 What I Learned
-
-* Playwright basics
+* Python fundamentals (for automation)
+* Playwright automation (UI testing)
 * Locators and actions
 * Assertions and waits
 * Page Object Model (POM)
+* Test structuring using Pytest
 
 ---
 
@@ -63,15 +58,16 @@ npx playwright test
 ## 🐞 Challenges Faced
 
 * Faced issues with setup initially
-* Locator strategies were confusing
+* Indentation errors in Python
 
 ---
 
 ## 🔧 Improvements Planned
 
-* Add API testing
-* Improve framework structure
-* Add CI/CD integration
+* Build a complete Playwright Python framework
+* Add end-to-end UI test scenarios
+* Integrate CI/CD (GitHub Actions / Azure DevOps)
+* Expand into API testing
 
 ---
 
