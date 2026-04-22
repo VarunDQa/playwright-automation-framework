@@ -1,4 +1,4 @@
-Pytest
-PyCharm
-Python test
 Playwright automation
+Python test
+PyCharm
+Pytest
