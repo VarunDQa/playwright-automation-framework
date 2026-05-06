@@ -1,76 +1,36 @@
-# Playwright Automation Project
+# OrangeHRM Test Automation Framework
 
-## 📌 Project Overview
+End-to-end test automation framework built with Python and Playwright,
+targeting the OrangeHRM demo application.
 
-This repository contains my learning and implementation of Playwright Automation using Python.
-The goal is to transition from Manual QA to Automation QA by building real-world test scenarios.
+## Tech Stack
+- Python 3.x
+- Playwright (Python)
+- Pytest
+- Page Object Model (POM)
+- GitHub Actions (CI/CD) — coming soon
 
----
-
-## 🛠 Tools & Technologies Used
-
-* Python
-* Playwright (Python)
-* Pytest
-* GitHub
-
----
-
-## 📁 Project Structure
-
-* tests/ → Test cases
-* pages/ → Page Object Model (POM) files
-* utils/ → Reusable utilities
-* test_data/ → Test data files
-* practice/ → Python basics & practice programs
-* docs/ → Learning notes & documentation
-
----
-
-## 🚀 How to Run Tests
-
-1. Install dependencies
-pip install playwright pytest
+## Project Structure
+tests/
+ui/          → UI test cases
+api/         → API test cases
+pages/         → Page Object Models
+test-data/     → Test data files
+conftest.py    → Pytest fixtures
+requirements.txt
+.gitignore
+## How to Run
+```bash
+pip install -r requirements.txt
 playwright install
-2. Run tests
-pytest
+pytest tests/ -v
+```
 
-## 🧠 What I’m Learning
+## Test Coverage (In Progress)
+- Login / Authentication flows
+- Employee management (Add, Edit, Delete)
+- API endpoint validation
+- Cross-browser execution (Chromium, Firefox, WebKit)
 
-* Python fundamentals (for automation)
-* Playwright automation (UI testing)
-* Locators and actions
-* Assertions and waits
-* Page Object Model (POM)
-* Test structuring using Pytest
-
----
-
-## 📅 Learning Progress
-
-* Day 1: JavaScript basics
-* Day 2: Advanced JS
-* Day 3: Playwright setup
-  (Add daily updates here)
-
----
-
-## 🐞 Challenges Faced
-
-* Faced issues with setup initially
-* Indentation errors in Python
-
----
-
-## 🔧 Improvements Planned
-
-* Build a complete Playwright Python framework
-* Add end-to-end UI test scenarios
-* Integrate CI/CD (GitHub Actions / Azure DevOps)
-* Expand into API testing
-
----
-
-## 👨‍💻 Author
-
+## Author
 Varun Deshpande
