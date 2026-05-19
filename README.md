@@ -4,7 +4,7 @@ End-to-end test automation framework built with Python and Playwright,
 targeting the OrangeHRM demo application.
 
 ## Tech Stack
-- Python 3.x
+- Python 3.X
 - Playwright (Python)
 - Pytest
 - Page Object Model (POM)
