@@ -8,7 +8,7 @@ targeting the OrangeHRM demo application.
 - Playwright (Python)
 - Pytest
 - Page Object Model (POM)
-- GitHub Actions (CI/CD) — coming soon
+- GitHub Actions (CI/CD)
 
 ## Project Structure
 tests/
